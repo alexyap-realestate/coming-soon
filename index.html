@@ -18,8 +18,7 @@
             -webkit-font-smoothing: antialiased;
         }
         .hero {
-            /* Different luxury interior background */
-            background-image: linear-gradient(to bottom, rgba(8, 8, 8, 0.5), rgba(8, 8, 8, 0.9)), url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1920&q=80');
+            background-image: linear-gradient(to bottom, rgba(8, 8, 8, 0.4), rgba(8, 8, 8, 0.7)), url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1920&q=80');
             height: 100vh;
             background-position: center;
             background-repeat: no-repeat;
@@ -29,17 +28,10 @@
             align-items: center;
             padding: 24px;
         }
-        .glass-card {
-            background: rgba(18, 18, 18, 0.75);
-            backdrop-filter: blur(16px);
-            -webkit-backdrop-filter: blur(16px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 16px;
-            padding: 50px 40px;
+        .content-box-transparent {
             max-width: 640px;
             width: 100%;
             text-align: center;
-            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
         }
         .tag {
             font-size: 0.75rem;
@@ -48,52 +40,64 @@
             color: #d4af37;
             margin-bottom: 20px;
             font-weight: 600;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
         }
         h1 {
-            font-size: 2.25rem;
+            font-size: 2.5rem;
             margin-bottom: 20px;
             letter-spacing: -0.5px;
             font-weight: 300;
             line-height: 1.2;
             color: #ffffff;
+            text-shadow: 0 2px 8px rgba(0,0,0,0.6);
         }
         p {
-            font-size: 1.05rem;
+            font-size: 1.1rem;
             line-height: 1.7;
-            color: #a1a1a6;
+            color: #e1e1e6;
             margin-bottom: 35px;
+            text-shadow: 0 2px 6px rgba(0,0,0,0.6);
         }
         .divider {
             height: 1px;
             width: 60px;
-            background: rgba(212, 175, 55, 0.4);
+            background: rgba(212, 175, 55, 0.6);
             margin: 0 auto 30px auto;
         }
         .contact-box {
-            font-size: 0.9rem;
-            color: #86868b;
+            font-size: 0.95rem;
+            color: #cccccc;
             line-height: 1.8;
+            margin-bottom: 25px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.6);
         }
         .contact-name {
             color: #ffffff;
             font-weight: 500;
-            font-size: 1rem;
+            font-size: 1.05rem;
             margin-bottom: 4px;
         }
         .contact-box a {
-            color: #f5f5f7;
+            color: #ffffff;
             text-decoration: none;
             transition: color 0.2s ease;
         }
         .contact-box a:hover {
             color: #d4af37;
         }
+        .footer-credit {
+            font-size: 0.75rem;
+            color: #aaaaaa;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            text-shadow: 0 1px 3px rgba(0,0,0,0.8);
+        }
     </style>
 </head>
 <body>
 
     <div class="hero">
-        <div class="glass-card">
+        <div class="content-box-transparent">
             <div class="tag">Realty World Dominion</div>
             <h1>An Exceptional Experience Is Coming</h1>
             <p>Our digital presence is currently being elevated to better serve the SF Bay Area real estate market. Stay tuned for our official debut.</p>
@@ -102,6 +106,9 @@
                 <div class="contact-name">Alex Yap</div>
                 55 E Hamilton Ave, Campbell, CA 95008<br>
                 Direct: <a href="tel:4088170383">408-817-0383</a> &bull; Email: <a href="mailto:ayap26@gmail.com">ayap26@gmail.com</a>
+            </div>
+            <div class="footer-credit">
+                Real Estate Website Design by Agent Image
             </div>
         </div>
     </div>
